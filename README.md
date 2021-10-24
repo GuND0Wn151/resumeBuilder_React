@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Resume Builder App
+
+This is a Resume Builder App Currently Under Development Using React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
