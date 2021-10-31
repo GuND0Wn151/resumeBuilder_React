@@ -50,7 +50,9 @@
 .botombox{
       height: 40%;
       position: relative;
+      display: flex;
 
+      justify-content: space-around;
 }
 .butonsub{
       height: 20%;
@@ -66,4 +68,31 @@
       background-color: black;
       color: white;
       border-radius: 10px;
+}
+.listdata{
+      position: relative;
+      width: 38%;
+}
+#ds {
+      justify-content: space-between;
+      display: flex;
+      font-size:1.1rem;
+      margin: 30px auto auto auto;
+      
+}
+#ds1{
+      width: 30%;
+      position: relative;
+}
+#ds2{
+      width: 50%;
+      position: relative;
+}
+input{
+      background: rgba(196, 220, 247, 0.78);
+      border: .2px solid rgb(160, 160, 160);
+      width: 130%;
+      height: 22px;
+      border-radius: 7px;
+      position: relative
 }

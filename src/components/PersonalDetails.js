@@ -25,9 +25,9 @@ function PersonalDetails(props) {
             <>
                   <div className="box">
                         {/* <form onSubmit={handlerinput}> */}
-                        <input type="text"  name="name" onChange={handlerinput}/>text
-                        <input type="text"  name="phone" onChange={handlerinput}/>text
-                        <button onClick={()=>console.log(data)}>here</button>
+                        {/* <input type="text"  name="name" onChange={handlerinput}/>text
+                        <input type="text"  name="phone" onChange={handlerinput}/>text */}
+                        {/* <button onClick={()=>console.log(data)}>here</button> */}
                         {/* </form> */}
                         <Personal b1={props.data1} b2={props.data2} datataking={handlerinput} data={data} setdata={setdata}/>
                   </div>
