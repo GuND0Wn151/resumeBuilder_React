@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import Educationaldetails from "./Educationaldetails";
 import PersonalDetails from "./PersonalDetails";
 import Achivements from "./Achivements";
+import Resume from "./Resume";
 function Main() {
       const buttonhanlder1=()=>{
             setpageno(pageno+1)
@@ -10,6 +11,7 @@ function Main() {
             }
 
       }
+      const [totaldata, settotaldata] = useState([])
       const buttonhanlder2=()=>{
             setpageno(pageno-1)
             if (pageno<0){
@@ -17,16 +19,26 @@ function Main() {
             }
 
       }
+      const buttonhanlder3=()=>{
+            setsubmit(1)
+
+      }
+      const [submit, setsubmit] = useState(0)
       const [pageno, setpageno] = useState(0)
       let page;
       if (pageno === 0){
-            page=<PersonalDetails data1={buttonhanlder1} data2={buttonhanlder2}/>
+            page=<PersonalDetails total={totaldata} totalset={settotaldata} data1={buttonhanlder1} data2={buttonhanlder2}/>
       }
       else if (pageno===1){
-            page=<Educationaldetails data1={buttonhanlder1} data2={buttonhanlder2}/>
+            page=<Achivements total={totaldata} totalset={settotaldata} data1={buttonhanlder3} data2={buttonhanlder2}/>
       }
       else{
-            page=<Achivements data1={buttonhanlder1} data2={buttonhanlder2}/>
+            
+            page=<Educationaldetails total={totaldata} totalset={settotaldata} data1={buttonhanlder1} data2={buttonhanlder2}/>
+      }
+
+      if (submit===1){
+            page=<Resume data={totaldata} />
       }
       return (
             <div>

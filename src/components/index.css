@@ -11,7 +11,7 @@
       /* background-color: aqua; */
       width: 85%;
       margin: 10px auto auto 7%;
-      height: 75vh;
+      height: 85vh;
 }
 .container{
       border: 5px solid aqua;
@@ -23,8 +23,8 @@
       border-radius: 20px;
 }
 .topbox{
-      height: 40%;
-      border-bottom: 2px solid aqua;
+      height: 45%;
+      /* border-bottom: 2px solid aqua; */
 }
 .butonpara{
       margin: 2% 5% 5% 3%;
@@ -48,14 +48,14 @@
       font-size: 1.1rem;
 }
 .botombox{
-      height: 40%;
+      height: 50%;
       position: relative;
       display: flex;
 
       justify-content: space-around;
 }
 .butonsub{
-      height: 20%;
+      height: 10%;
       align-items: center;
       justify-content: center;
       text-align: center;
@@ -95,4 +95,42 @@ input{
       height: 22px;
       border-radius: 7px;
       position: relative
+}
+.heading{
+      width: 100%;
+      text-align: center;
+
+      text-transform: capitalize;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-radius: 10px;
+}
+.heading2{
+      width: 100%;
+      text-align: center;
+margin-top: 20px;
+      text-transform: capitalize;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-radius: 10px;
+}
+.skills{
+      display: flex;
+      height: 100%;
+      position: relative;
+      flex-direction: column;
+      
+      justify-content: space-around;
+}
+.skills input{
+      background: rgba(196, 220, 247, 0.78);
+      border: .2px solid rgb(160, 160, 160);
+      width: 140%;
+      height: 22px;
+      border-radius: 7px;
+      position: relative
+}
+.skilist{
+      display: flex;
+      justify-content: space-around;
 }

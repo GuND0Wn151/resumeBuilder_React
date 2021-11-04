@@ -29,7 +29,7 @@ function PersonalDetails(props) {
                         <input type="text"  name="phone" onChange={handlerinput}/>text */}
                         {/* <button onClick={()=>console.log(data)}>here</button> */}
                         {/* </form> */}
-                        <Personal b1={props.data1} b2={props.data2} datataking={handlerinput} data={data} setdata={setdata}/>
+                        <Personal b1={props.data1} b2={props.data2} datataking={handlerinput} data={props.total} setdata={props.totalset}/>
                   </div>
             </>
 
