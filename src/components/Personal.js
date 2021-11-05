@@ -60,7 +60,7 @@ function Personal(props) {
                                           </div>
                                           <div id="ds">
                                                 <div id='ds1'><p>Instagram Profile</p></div >
-                                                <div  id='ds2'><input onChange={handlerinput} type="text" name="data5" id=""  required></input></div>
+                                                <div  id='ds2'><input onChange={handlerinput} type="text" name="instagram" id=""  required></input></div>
                                           </div>
                                     </div>
                                     

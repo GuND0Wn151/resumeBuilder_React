@@ -47,7 +47,7 @@ function Main() {
 
                         {page}
                         <div className="buttonbox">
-                              <button onClick={buttonhanlder1} >Click Me plz</button>
+                              {/* <button onClick={buttonhanlder1} >Click Me plz</button> */}
                         </div>
                   </div>
                   

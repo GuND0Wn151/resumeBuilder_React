@@ -28,21 +28,21 @@ function Acheive(props) {
                               <div className="skills">
                                     <div className="skilist">
                                           <p>Skills</p>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="skill1" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="skill2" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="skill3" id="" ></input></div>
                                     </div>
                                     <div className="skilist">
                                           <p>Interets</p>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="interets1" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="interets2" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="interets3" id="" ></input></div>
                                     </div>
                                     <div className="skilist">
                                           <p>Hobbies</p>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
-                                          <div><input onChange={handlerinput}  type="text" name="secondaryclg" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="Hobbies1" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="Hobbies2" id="" ></input></div>
+                                          <div><input onChange={handlerinput}  type="text" name="Hobbies3" id="" ></input></div>
                                     </div>
                               </div>
                         </div>
@@ -65,7 +65,7 @@ function Acheive(props) {
                                           </div>
                                     </div>
                                     <div className="listdata">
-                                          <div id="ds">
+                                          {/* <div id="ds">
                                                 <div id='ds1'><p>Project Title</p></div><div  id='ds2'><input onChange={handlerinput} type="text" name="prj2name" id="" ></input></div>
                                           </div>
                                           <div id="ds">
@@ -75,6 +75,10 @@ function Acheive(props) {
                                           <div id="ds">
                                                 <div id='ds1'><p>Description</p></div >
                                                 <div  id='ds2'><input onChange={handlerinput} type="text" name="prj2desc" id="" ></input></div>
+                                          </div> */}
+                                          <div id="ds">
+                                                <div id='ds1'><p>About You</p></div >
+                                                <textarea name="aboutme" id="" cols="40" rows="11"></textarea>
                                           </div>
                                     </div>
                                     

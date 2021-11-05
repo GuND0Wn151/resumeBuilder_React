@@ -94,7 +94,9 @@ input{
       width: 130%;
       height: 22px;
       border-radius: 7px;
-      position: relative
+      position: relative;
+      font-weight: bold;
+      padding-left: 2px;
 }
 .heading{
       width: 100%;
@@ -130,7 +132,13 @@ margin-top: 20px;
       border-radius: 7px;
       position: relative
 }
+textarea{
+      background: rgba(196, 220, 247, 0.78);
+      border: .2px solid rgb(160, 160, 160);
+      border-radius: 7px;
+}
 .skilist{
       display: flex;
       justify-content: space-around;
 }
+
