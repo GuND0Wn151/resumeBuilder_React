@@ -11,11 +11,11 @@ body{
       border-radius: 5px;
       background: white;
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      
       position: relative;
 }
 .data{
       display: flex;
+      font-weight: bold;
 }
 .leftresume,.rightresume{
       position: relative;
@@ -27,16 +27,18 @@ body{
       width: 25%;
       height: 157.1vh;
       /* margin-top: 100px; */
-      background-color: #888888;
+      /* background-color: #888888; */
+      background-color: aqua;
 }
 .leftresume{
       width: 75%;
-
+background-color: azure;
       /* margin-top: 100px; */
       height: 157.1vh;
 }
 .nameheading{
       position: relative;
+      
       width: 100%;
       height: 50px;
      display: flex;
@@ -54,4 +56,59 @@ body{
 }
 .heading1{
       border-bottom: 2px solid black;
+      background-color: azure;
+}
+.aboutmedata,.Educational_details,.projectdetails,.Social_Links,.Exp{
+      margin: 15px auto auto 10px;
+      padding-top: 3px;
+      padding-left: 5px;
+      /* font-weight: lighter; */
+      font-family: 'Roboto Mono', monospace;
+      
+}
+.aboutmedata p,.Educational_details p,.projectdetails p,.Social_Links p,.Exp p{
+      color: #4d4a4a;
+} 
+.aboutmedata p {
+      margin-top: 5px;
+      margin-left: 10px;
+}
+.edu{
+      margin: 10px auto auto 10px;
+}
+.projectdetails p,.Social_Links p,.Exp p{
+      margin: 5px auto auto 3px ;
+}
+
+.highlight{
+      text-align: center;
+      font-family: 'Roboto Mono', monospace;
+      font-weight: bolder;
+      height: 40px;
+      background-color: #888888;
+
+}
+.highlight h2{
+      margin-bottom: 20px;
+}
+#high{
+      margin-top: 20px;
+      
+}
+#skill{
+      height: 2px;
+      background-color: black;
+      margin-top: 20px;
+}
+.borderbtm1{
+      width: 95%;
+}
+.borderbtm2{
+      width: 75%;
+}
+.borderbtm3{
+      width: 50%;
+}
+.skillbox{
+      margin: 10px auto auto auto;
 }

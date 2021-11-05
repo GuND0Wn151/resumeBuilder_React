@@ -38,20 +38,20 @@ function Personal(props) {
                               <div className="botombox">
                                     <div className="listdata">
                                           <div id="ds">
-                                                <div id='ds1'><p>Github Profile </p></div>
+                                                <div id='ds1'><p>Github Profile:= </p></div>
                                                 <div  id='ds2'><input onChange={handlerinput} type="text" name="github" id="data1"  required></input></div>
                                           </div>
                                           <div id="ds">
-                                                <div id='ds1'><p>Linkedin Profile</p></div>
+                                                <div id='ds1'><p>Linkedin Profile:= </p></div>
                                                 <div  id='ds2'><input onChange={handlerinput} type="text" name="linkedin" id="data2"  required></input></div>
                                           </div>
                                           <div id="ds">
-                                                <div id='ds1'><p>Twitter Id</p></div>
-                                                <div  id='ds2'><input onChange={handlerinput} type="text" name="twitter" id=""  required></input></div>
+                                                
+                                                <div id='ds1'><p>Portforlio Link:= </p></div><div  id='ds2'><input onChange={handlerinput} type="text" name="protforlio" id=""  required></input></div>
                                           </div>
                                     </div>
                                     <div className="listdata">
-                                          <div id="ds">
+                                          {/* <div id="ds">
                                                 <div id='ds1'><p>Portforlio Link</p></div><div  id='ds2'><input onChange={handlerinput} type="text" name="protforlio" id=""  required></input></div>
                                           </div>
                                           <div id="ds">
@@ -61,6 +61,14 @@ function Personal(props) {
                                           <div id="ds">
                                                 <div id='ds1'><p>Instagram Profile</p></div >
                                                 <div  id='ds2'><input onChange={handlerinput} type="text" name="instagram" id=""  required></input></div>
+                                          </div> */}
+                                          <div id="ds">
+                                                <div id='ds1'><p>Experiences:- </p></div >
+                                                <textarea onChange={handlerinput} name="exp" id="" cols="40" rows="5"></textarea>
+                                          </div>
+                                          <div id="ds">
+                                                <div id='ds1'><p>Certificates:- </p></div >
+                                                <textarea onChange={handlerinput} name="cert" id="" cols="40" rows="5"></textarea>
                                           </div>
                                     </div>
                                     

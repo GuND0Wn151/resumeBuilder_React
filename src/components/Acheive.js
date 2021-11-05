@@ -16,7 +16,6 @@ function Acheive(props) {
 
 
 
-
       return (
             <>
                   <div className="container-box">
@@ -53,11 +52,11 @@ function Acheive(props) {
                                     <div className="listdata">
                                           <div id="ds">
                                                 <div id='ds1'><p>Project Title</p></div>
-                                                <div  id='ds2'><input onChange={handlerinput} type="text" name="github" id="prj1name" ></input></div>
+                                                <div  id='ds2'><input onChange={handlerinput} type="text" name="prjtitle" id="prj1name" ></input></div>
                                           </div>
                                           <div id="ds">
                                                 <div id='ds1'><p>Project Link</p></div>
-                                                <div  id='ds2'><input onChange={handlerinput} type="text" name="linkedin" id="prj1link" ></input></div>
+                                                <div  id='ds2'><input onChange={handlerinput} type="text" name="prjlink" id="prj1link" ></input></div>
                                           </div>
                                           <div id="ds">
                                                 <div id='ds1'><p>Description</p></div>
@@ -78,12 +77,11 @@ function Acheive(props) {
                                           </div> */}
                                           <div id="ds">
                                                 <div id='ds1'><p>About You</p></div >
-                                                <textarea name="aboutme" id="" cols="40" rows="11"></textarea>
+                                                <textarea onChange={handlerinput} name="aboutme" id="" cols="40" rows="11"></textarea>
                                           </div>
                                     </div>
                                     
                               </div>  
-                              
                               
                               
                               
