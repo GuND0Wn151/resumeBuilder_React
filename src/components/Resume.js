@@ -123,8 +123,11 @@ function resume(props) {
                               
                               </div>
                         </div>
+                        
                   </div>
-                  
+                  <div className="submit">
+                  <button onClick={()=>window.print()}>Print </button>
+                  </div>
             </>
       )
 }
